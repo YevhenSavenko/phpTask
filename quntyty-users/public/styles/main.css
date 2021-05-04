@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+section{
+    padding-bottom: 100px;
+}
+
+.form-wrapper{
+    position: relative;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    padding: 50px 20px;
+}
+
+.label-inside{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.check-status{
+    margin-top: -20px;
+}
+
+.button-submit{
+    margin-top: 50px;
+}
+
+.content-tables{
+    margin-top: 50px;
+}
+
+.table-dat-wrapper{
+    border: 1px solid rgba(204, 204, 204, 0.9);
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.table-data{
+    width: 100%;
+}
+
+.table-data, .table-data tr, .table-data td{
+    border: 1px solid rgba(204, 204, 204, 0.9);
+}
+
+
+.table-data td{
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.row-sum{
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.row-sum td{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.sub-title{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.button-show{
+    margin-bottom: 25px;
+}
+
+.data-canvas{
+    margin-top: 35px;
+}
+
+#btn-show{
+    color: #ab0000;
+    font-weight: 700 !important;
+}

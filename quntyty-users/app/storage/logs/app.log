@@ -1,0 +1,7 @@
+[10-Mar-2021 16:43:35 Europe/Kiev] 2021-03-10 16:43:35 - Errors: File upload problems!!!
+[10-Mar-2021 16:47:12 Europe/Kiev] 2021-03-10 16:47:12 - Errors: File upload problems!!!
+[13-Mar-2021 18:34:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Zadorozhnii\Downloads\PW5\PW5\app\views\master.view.php on line 39
+[13-Mar-2021 18:35:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Zadorozhnii\Downloads\PW5\PW5\app\views\master.view.php on line 39
+[13-Mar-2021 18:35:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'endfor' (T_ENDFOR), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Zadorozhnii\Downloads\PW5\PW5\app\views\form.view.php on line 16
+[13-Mar-2021 18:49:16 Europe/Berlin] 2021-03-13 18:49:16 - Errors: File upload problems!!!
+[10-Apr-2021 17:31:34 Europe/Kiev] 2021-04-10 17:31:34 - Errors: File upload problems!!!

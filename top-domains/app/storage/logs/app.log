@@ -1,0 +1,726 @@
+[19-Mar-2021 22:53:06 Europe/Kiev] PHP Fatal error:  Cannot redeclare readFile() in E:\PHP-projects\top-domains\app\config\function.php on line 10
+[19-Mar-2021 22:53:54 Europe/Kiev] PHP Fatal error:  Cannot redeclare readFile() in E:\PHP-projects\top-domains\app\config\function.php on line 10
+[19-Mar-2021 22:56:21 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 9
+[19-Mar-2021 22:57:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 8
+[19-Mar-2021 23:17:55 Europe/Kiev] PHP Fatal error:  Uncaught Error: Call to undefined function json_dencode() in E:\PHP-projects\top-domains\app\config\function.php:14
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 14
+[19-Mar-2021 23:28:30 Europe/Kiev] PHP Warning:  simplexml_load_string(): Entity: line 4: parser error : xmlParseEntityRef: no name in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:28:30 Europe/Kiev] PHP Warning:  simplexml_load_string():          &lt;value&gt;&lt;string&gt;a &amp; b&lt;/string&gt;&lt;/value&gt; in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:28:30 Europe/Kiev] PHP Warning:  simplexml_load_string():                            ^ in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:30:00 Europe/Kiev] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:30:00 Europe/Kiev] PHP Warning:  simplexml_load_string(): E:\PHP-projects\top-domains\app\config/../data/data.xml in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:30:00 Europe/Kiev] PHP Warning:  simplexml_load_string(): ^ in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:30:09 Europe/Kiev] PHP Warning:  simplexml_load_string(): Entity: line 4: parser error : xmlParseEntityRef: no name in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:30:09 Europe/Kiev] PHP Warning:  simplexml_load_string():          &lt;value&gt;&lt;string&gt;a &amp; b&lt;/string&gt;&lt;/value&gt; in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[19-Mar-2021 23:30:09 Europe/Kiev] PHP Warning:  simplexml_load_string():                            ^ in E:\PHP-projects\top-domains\app\config\function.php on line 18
+[20-Mar-2021 00:30:00 Europe/Kiev] PHP Warning:  explode(): Empty delimiter in E:\PHP-projects\top-domains\app\config\function.php on line 14
+[20-Mar-2021 00:33:01 Europe/Kiev] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 17428848 bytes) in E:\PHP-projects\top-domains\app\config\function.php on line 9
+[20-Mar-2021 00:34:13 Europe/Kiev] PHP Fatal error:  Allowed memory size of 2097154 bytes exhausted (tried to allocate 17428848 bytes) in E:\PHP-projects\top-domains\app\config\function.php on line 9
+[20-Mar-2021 00:34:25 Europe/Kiev] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 17428848 bytes) in E:\PHP-projects\top-domains\app\config\function.php on line 9
+[20-Mar-2021 00:34:41 Europe/Kiev] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 17428848 bytes) in E:\PHP-projects\top-domains\app\config\function.php on line 9
+[20-Mar-2021 00:47:56 Europe/Kiev] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in E:\PHP-projects\top-domains\app\config\function.php on line 13
+[22-Mar-2021 15:52:51 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: fgetcsv() expects parameter 1 to be resource, bool given in E:\PHP-projects\top-domains\app\config\function.php:31
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(31): fgetcsv(true, 1000, '\\n')
+#1 E:\PHP-projects\top-domains\app\config\function.php(13): readCsvFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 31
+[22-Mar-2021 15:53:13 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: fgetcsv() expects parameter 1 to be resource, bool given in E:\PHP-projects\top-domains\app\config\function.php:31
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(31): fgetcsv(true, 1000, '\\n')
+#1 E:\PHP-projects\top-domains\app\config\function.php(13): readCsvFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 31
+[22-Mar-2021 15:53:32 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: fgetcsv() expects parameter 1 to be resource, bool given in E:\PHP-projects\top-domains\app\config\function.php:31
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(31): fgetcsv(true, 1000, '\\r')
+#1 E:\PHP-projects\top-domains\app\config\function.php(13): readCsvFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 31
+[22-Mar-2021 15:53:50 Europe/Kiev] PHP Warning:  fopen(test.csv): failed to open stream: No such file or directory in E:\PHP-projects\top-domains\app\config\function.php on line 37
+[22-Mar-2021 15:54:01 Europe/Kiev] PHP Warning:  fopen(test.csv): failed to open stream: No such file or directory in E:\PHP-projects\top-domains\app\config\function.php on line 37
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:54:18 Europe/Kiev] PHP Notice:  fgetcsv(): delimiter must be a single character in E:\PHP-projects\top-domains\app\config\function.php on line 38
+[22-Mar-2021 15:58:17 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: fgetcsv() expects parameter 1 to be resource, bool given in E:\PHP-projects\top-domains\app\config\function.php:31
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(31): fgetcsv(true, 1000, ',')
+#1 E:\PHP-projects\top-domains\app\config\function.php(13): readCsvFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 31
+[22-Mar-2021 15:59:41 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: fgetcsv() expects parameter 1 to be resource, bool given in E:\PHP-projects\top-domains\app\config\function.php:31
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(31): fgetcsv(true, 1000, ',')
+#1 E:\PHP-projects\top-domains\app\config\function.php(13): readCsvFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 31
+[22-Mar-2021 16:00:44 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: fgetcsv() expects parameter 1 to be resource, bool given in E:\PHP-projects\top-domains\app\config\function.php:31
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(31): fgetcsv(true, 1000, ',')
+#1 E:\PHP-projects\top-domains\app\config\function.php(13): readCsvFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 31
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 34
+[22-Mar-2021 16:10:04 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 43
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:10:18 Europe/Kiev] PHP Notice:  Undefined variable: count in E:\PHP-projects\top-domains\app\config\function.php on line 33
+[22-Mar-2021 16:31:59 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, null returned in E:\PHP-projects\top-domains\app\config\function.php:15
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 15
+[22-Mar-2021 16:32:21 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:23
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 23
+[22-Mar-2021 16:33:04 Europe/Kiev] PHP Parse error:  syntax error, unexpected '|', expecting '{' in E:\PHP-projects\top-domains\app\config\function.php on line 5
+[22-Mar-2021 16:33:13 Europe/Kiev] PHP Parse error:  syntax error, unexpected '|', expecting '{' in E:\PHP-projects\top-domains\app\config\function.php on line 5
+[22-Mar-2021 16:33:24 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, int returned in E:\PHP-projects\top-domains\app\config\function.php:24
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 24
+[22-Mar-2021 16:33:31 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be an instance of mixed, int returned in E:\PHP-projects\top-domains\app\config\function.php:24
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 24
+[22-Mar-2021 16:33:35 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, int returned in E:\PHP-projects\top-domains\app\config\function.php:24
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 24
+[22-Mar-2021 16:33:45 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:23
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 23
+[22-Mar-2021 16:37:33 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:23
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 23
+[22-Mar-2021 16:37:55 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be an instance of mixed, none returned in E:\PHP-projects\top-domains\app\config\function.php:23
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 23
+[22-Mar-2021 16:54:39 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of readTxtFile() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:82
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(15): readTxtFile('E:\\PHP-projects...')
+#1 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#2 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#3 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#4 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 82
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:57 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:58 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:27:59 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:28:00 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:28:00 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:28:00 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:28:00 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:28:00 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 98
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:33 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:34 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 17:30:35 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\config\function.php on line 91
+[22-Mar-2021 19:24:02 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:27
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(6): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 27
+[22-Mar-2021 19:25:54 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of decodeReadedFile() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:27
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(7): decodeReadedFile(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 27
+[22-Mar-2021 19:54:13 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: usort() expects parameter 2 to be a valid callback, function 'sortRank' not found or invalid function name in E:\PHP-projects\top-domains\app\config\function.php:106
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(106): usort(Array, 'sortRank')
+#1 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(8): sortArrayByRating(Array)
+#2 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#3 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#4 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 106
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:37 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:38 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:00:49 Europe/Kiev] PHP Notice:  Array to string conversion in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:05:13 Europe/Kiev] PHP Notice:  Undefined index: ratting in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:05:13 Europe/Kiev] PHP Warning:  array_unique() expects parameter 1 to be array, null given in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:19:32 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of sortArrayByRating() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:117
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(10): sortArrayByRating(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 117
+[22-Mar-2021 20:19:40 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of sortArrayByRating() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:117
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(10): sortArrayByRating(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 117
+[22-Mar-2021 20:20:07 Europe/Kiev] PHP Notice:  Undefined variable: arraySorted in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 7
+[22-Mar-2021 20:20:07 Europe/Kiev] PHP Warning:  Invalid argument supplied for foreach() in E:\PHP-projects\top-domains\app\config\function.php on line 125
+[22-Mar-2021 20:20:07 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of sortArrayByRating() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:117
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(8): sortArrayByRating(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 117
+[22-Mar-2021 20:20:27 Europe/Kiev] PHP Notice:  Undefined variable: arrayWithoutRepetitions in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 8
+[22-Mar-2021 20:20:27 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of sortArrayByRating() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:117
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(12): sortArrayByRating(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 117
+[22-Mar-2021 20:20:35 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of sortArrayByRating() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:117
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(12): sortArrayByRating(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 117
+[22-Mar-2021 20:21:37 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of sortArrayByRating() must be of the type array, none returned in E:\PHP-projects\top-domains\app\config\function.php:117
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(12): sortArrayByRating(Array)
+#1 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 117
+[22-Mar-2021 20:23:33 Europe/Kiev] PHP Parse error:  syntax error, unexpected ''domain'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in E:\PHP-projects\top-domains\app\controllers\ReadFileController.php on line 11
+[22-Mar-2021 20:55:28 Europe/Kiev] No files found in directory
+[23-Mar-2021 09:50:59 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in E:\PHP-projects\top-domains\app\views\master.view.php on line 26
+[23-Mar-2021 10:11:22 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 10:11:39 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 15:49:56 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 15:50:24 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 15:50:35 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 16:02:26 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 16:06:24 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 16:06:28 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 16:07:00 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 16:48:09 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: explode() expects parameter 2 to be string, bool given in E:\PHP-projects\top-domains\app\config\function.php:69
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\config\function.php(69): explode(';', false)
+#1 E:\PHP-projects\top-domains\app\config\function.php(17): readTxtFile('E:\\PHP-projects...')
+#2 E:\PHP-projects\top-domains\app\controllers\ReadFileController.php(9): decodeReadedFile(Array)
+#3 E:\PHP-projects\top-domains\app\route.php(3): require_once('E:\\PHP-projects...')
+#4 E:\PHP-projects\top-domains\public\index.php(4): require_once('E:\\PHP-projects...')
+#5 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 69
+[23-Mar-2021 16:49:58 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of addStatusResponsive() must be of the type int, none returned in E:\PHP-projects\top-domains\app\config\function.php:160
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\views\master.view.php(39): addStatusResponsive('vk.com')
+#1 E:\PHP-projects\top-domains\public\index.php(5): require_once('E:\\PHP-projects...')
+#2 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 160
+[23-Mar-2021 16:53:57 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of addStatusResponsive() must be of the type int, none returned in E:\PHP-projects\top-domains\app\config\function.php:160
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\views\master.view.php(39): addStatusResponsive('vk.com')
+#1 E:\PHP-projects\top-domains\public\index.php(5): require_once('E:\\PHP-projects...')
+#2 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 160
+[23-Mar-2021 16:57:13 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of addStatusResponsive() must be of the type int, none returned in E:\PHP-projects\top-domains\app\config\function.php:160
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\views\master.view.php(39): addStatusResponsive('vk.com')
+#1 E:\PHP-projects\top-domains\public\index.php(5): require_once('E:\\PHP-projects...')
+#2 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 160
+[23-Mar-2021 17:09:36 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Return value of addStatusResponsive() must be an instance of mixed, int returned in E:\PHP-projects\top-domains\app\config\function.php:159
+Stack trace:
+#0 E:\PHP-projects\top-domains\app\views\master.view.php(39): addStatusResponsive('fonts.googleapi...')
+#1 E:\PHP-projects\top-domains\public\index.php(5): require_once('E:\\PHP-projects...')
+#2 {main}
+  thrown in E:\PHP-projects\top-domains\app\config\function.php on line 159
+[23-Mar-2021 17:09:51 Europe/Kiev] PHP Fatal error:  Maximum execution time of 1 second exceeded in E:\PHP-projects\top-domains\app\config\function.php on line 154
+[23-Mar-2021 17:10:44 Europe/Kiev] PHP Fatal error:  Maximum execution time of 1 second exceeded in E:\PHP-projects\top-domains\app\config\function.php on line 154
+[23-Mar-2021 17:12:53 Europe/Kiev] PHP Fatal error:  Maximum execution time of 10 seconds exceeded in E:\PHP-projects\top-domains\app\config\function.php on line 154
+[23-Mar-2021 17:14:36 Europe/Kiev] PHP Fatal error:  Maximum execution time of 10 seconds exceeded in E:\PHP-projects\top-domains\app\config\function.php on line 154

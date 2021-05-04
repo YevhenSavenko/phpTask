@@ -1,0 +1,108 @@
+
+[16-Mar-2021 14:47:29 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:50:57 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:50:59 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:51:06 Europe/Kiev] PHP Notice:  Undefined index: contents-notes in E:\PHP-projects\privnote-clone\app\views\form.php on line 17
+[16-Mar-2021 14:52:03 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:52:10 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:52:12 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:52:15 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:52:16 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:52:48 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 14:55:28 Europe/Kiev] PHP Notice:  Undefined index: status in E:\PHP-projects\privnote-clone\app\views\master.view.php on line 34
+[16-Mar-2021 14:56:09 Europe/Kiev] PHP Parse error:  syntax error, unexpected ')' in E:\PHP-projects\privnote-clone\app\views\master.view.php on line 34
+[16-Mar-2021 14:56:39 Europe/Kiev] PHP Notice:  Undefined index: status in E:\PHP-projects\privnote-clone\app\views\master.view.php on line 34
+[16-Mar-2021 14:58:35 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:04:34 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:08:09 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:10:49 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:12:40 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:22:04 Europe/Kiev] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE), expecting ')' in E:\PHP-projects\privnote-clone\app\config\function.php on line 3
+[16-Mar-2021 15:22:19 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}' in E:\PHP-projects\privnote-clone\app\config\function.php on line 5
+[16-Mar-2021 15:51:32 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:54:34 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 15:58:10 Europe/Kiev] PHP Fatal error:  strict_types declaration must be the very first statement in the script in E:\PHP-projects\privnote-clone\app\controllers\FormController.php on line 11
+[16-Mar-2021 16:40:07 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to generateIdFiles() must be of the type string, int given, called in E:\PHP-projects\privnote-clone\app\config\function.php on line 10 and defined in E:\PHP-projects\privnote-clone\app\config\function.php:6
+Stack trace:
+#0 E:\PHP-projects\privnote-clone\app\config\function.php(10): generateIdFiles(22)
+#1 E:\PHP-projects\privnote-clone\app\bootstrap.php(12): require_once('E:\\PHP-projects...')
+#2 E:\PHP-projects\privnote-clone\public\index.php(4): require_once('E:\\PHP-projects...')
+#3 {main}
+  thrown in E:\PHP-projects\privnote-clone\app\config\function.php on line 6
+[16-Mar-2021 17:28:57 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 17:29:58 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 17:31:13 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 17:43:59 Europe/Kiev] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in E:\PHP-projects\privnote-clone\app\config\function.php on line 27
+[16-Mar-2021 17:56:33 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 17:56:34 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 17:56:37 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 17:59:08 Europe/Kiev] PHP Warning:  file_put_contents(E:\PHP-projects\privnote-clone\app\config/../storage/dataDase/ad9a7f10cd0d53b5edb4fa13b05ae28a0bd0df56.txt): failed to open stream: No such file or directory in E:\PHP-projects\privnote-clone\app\config\function.php on line 27
+[16-Mar-2021 18:04:23 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 19:49:14 Europe/Kiev] PHP Notice:  Undefined index: $countSymbolsIsSha1 in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 2
+[16-Mar-2021 19:49:14 Europe/Kiev] The hash [f3e1d91d954d3460001488d5d2ad318aab699f5] does not match the correctness!
+[16-Mar-2021 19:50:09 Europe/Kiev] PHP Notice:  Undefined index: $countSymbolsIsSha1 in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 3
+[16-Mar-2021 19:50:09 Europe/Kiev] The hash [95cb4a47b475da24a6cdb8aaa50ec0e3f08a3d51] does not match the correctness!
+[16-Mar-2021 19:50:09 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:3) in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 7
+[16-Mar-2021 19:50:23 Europe/Kiev] The hash [95cb4a47b475da24a6cdb8aaa50ec0e3f08a3d5] does not match the correctness!
+[16-Mar-2021 19:55:44 Europe/Kiev] The hash [100e55d413fee2a9ae76e41a86469de30267e4d] does not match the correctness!
+[16-Mar-2021 19:57:36 Europe/Kiev] The hash [3ce1a0815cb99de2d6b09a7fb69a4ffcc6a0503] does not match the correctness!
+[16-Mar-2021 20:00:04 Europe/Kiev] The hash [1ddb8c69f0b15bfd81264efda72aee57a0562621d] does not match the correctness!
+[16-Mar-2021 20:00:38 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 20:12:55 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 20:19:58 Europe/Kiev] The hash [fea41e923f94bc01140ede107d5f259fcf44007ej] does not match the correctness!
+[16-Mar-2021 20:29:33 Europe/Kiev] PHP Warning:  scandir(PATH_DATA_BASE,PATH_DATA_BASE): The system cannot find the file specified. (code: 2) in E:\PHP-projects\privnote-clone\app\config\function.php on line 33
+[16-Mar-2021 20:29:33 Europe/Kiev] PHP Warning:  scandir(PATH_DATA_BASE): failed to open dir: No such file or directory in E:\PHP-projects\privnote-clone\app\config\function.php on line 33
+[16-Mar-2021 20:29:33 Europe/Kiev] PHP Warning:  scandir(): (errno 2): No such file or directory in E:\PHP-projects\privnote-clone\app\config\function.php on line 33
+[16-Mar-2021 20:29:33 Europe/Kiev] PHP Warning:  array_diff(): Expected parameter 1 to be an array, bool given in E:\PHP-projects\privnote-clone\app\config\function.php on line 33
+[16-Mar-2021 20:39:13 Europe/Kiev] PHP Notice:  Undefined offset: 0 in E:\PHP-projects\privnote-clone\app\config\function.php on line 36
+[16-Mar-2021 20:39:13 Europe/Kiev] PHP Fatal error:  Uncaught TypeError: mb_substr() expects parameter 1 to be string, null given in E:\PHP-projects\privnote-clone\app\config\function.php:36
+Stack trace:
+#0 E:\PHP-projects\privnote-clone\app\config\function.php(36): mb_substr(NULL, 0, 40)
+#1 E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php(10): fileAndHashComparison('E:\\PHP-projects...', '3947c87dc65a699...')
+#2 E:\PHP-projects\privnote-clone\app\route.php(8): require_once('E:\\PHP-projects...')
+#3 E:\PHP-projects\privnote-clone\public\index.php(5): require_once('E:\\PHP-projects...')
+#4 {main}
+  thrown in E:\PHP-projects\privnote-clone\app\config\function.php on line 36
+[16-Mar-2021 21:21:10 Europe/Kiev] No hash found!
+[16-Mar-2021 21:22:24 Europe/Kiev] No hash found!
+[16-Mar-2021 21:22:40 Europe/Kiev] No hash found!
+[16-Mar-2021 21:25:51 Europe/Kiev] PHP Notice:  Undefined index: $getContentsFile in E:\PHP-projects\privnote-clone\app\views\show.view.php on line 6
+[16-Mar-2021 21:26:48 Europe/Kiev] PHP Notice:  Undefined index: $getContentsFile in E:\PHP-projects\privnote-clone\app\views\show.view.php on line 6
+[16-Mar-2021 21:33:02 Europe/Kiev] No hash found!
+[16-Mar-2021 21:37:26 Europe/Kiev] No hash found!
+[16-Mar-2021 21:38:37 Europe/Kiev] No hash found!
+[16-Mar-2021 21:38:43 Europe/Kiev] The textarea is empty!
+[16-Mar-2021 21:39:00 Europe/Kiev] The hash [cd3a8557f9da32f7d8154d283c9e62e309342d2] does not match the correctness!
+[16-Mar-2021 21:39:00 Europe/Kiev] No hash found!
+[16-Mar-2021 21:39:10 Europe/Kiev] The hash [cd3a8557f9da32f7d8154d283c9e62e309342d] does not match the correctness!
+[16-Mar-2021 21:39:10 Europe/Kiev] No hash found!
+[16-Mar-2021 21:40:37 Europe/Kiev] The hash [ecb099a83fc8537ae8d4100efdac163aee1f47da33] does not match the correctness!
+[16-Mar-2021 21:40:37 Europe/Kiev] No hash found!
+[16-Mar-2021 21:41:35 Europe/Kiev] The hash [ecb099a83fc8537ae8d4100efdac163aee1f47da1] does not match the correctness!
+[16-Mar-2021 21:41:35 Europe/Kiev] No hash found!
+[16-Mar-2021 21:42:01 Europe/Kiev] The hash [ecb099a83fc8537ae8d4100efdac163aee1f47da33] does not match the correctness!
+[16-Mar-2021 21:42:01 Europe/Kiev] No hash found!
+[16-Mar-2021 21:42:39 Europe/Kiev] The hash [0e91c3a6e27e1a9ea51cc18931a2893c17608c8f33] does not match the correctness!
+[16-Mar-2021 21:42:39 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:5) in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 8
+[16-Mar-2021 21:42:39 Europe/Kiev] No hash found!
+[16-Mar-2021 21:42:39 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:5) in E:\PHP-projects\privnote-clone\app\config\function.php on line 48
+[16-Mar-2021 21:43:32 Europe/Kiev] The hash [0e91c3a6e27e1a9ea51cc18931a2893c17608c8f33] does not match the correctness!
+[16-Mar-2021 21:43:32 Europe/Kiev] No hash found!
+[16-Mar-2021 21:43:41 Europe/Kiev] The hash [9362e8ebbe55d864de158ba36dc26ef38ea6dcf32] does not match the correctness!
+[16-Mar-2021 21:43:41 Europe/Kiev] No hash found!
+[16-Mar-2021 21:44:06 Europe/Kiev] The hash [ddadd22654789f8e9debae6d0fc974d936e1fa6cdd] does not match the correctness!
+[16-Mar-2021 21:44:06 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:5) in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 8
+[16-Mar-2021 21:44:06 Europe/Kiev] No hash found!
+[16-Mar-2021 21:44:06 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:5) in E:\PHP-projects\privnote-clone\app\config\function.php on line 48
+[16-Mar-2021 21:45:10 Europe/Kiev] The hash [8886348636845802ca75aac015b0275e4711dd77e] does not match the correctness!
+[16-Mar-2021 21:45:10 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:5) in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 8
+[16-Mar-2021 21:45:32 Europe/Kiev] The hash [8886348636845802ca75aac015b0275e4711dd77e] does not match the correctness!
+[16-Mar-2021 21:45:33 Europe/Kiev] PHP Warning:  Cannot modify header information - headers already sent by (output started at E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php:5) in E:\PHP-projects\privnote-clone\app\controllers\ShowMessageController.php on line 8
+[16-Mar-2021 21:45:52 Europe/Kiev] The hash [8886348636845802ca75aac015b0275e4711dd77e] does not match the correctness!
+[16-Mar-2021 21:46:17 Europe/Kiev] The hash [0cb5f69053c552a087b6f4b76de0538c257d1caaq] does not match the correctness!
+[16-Mar-2021 21:46:38 Europe/Kiev] The hash [e20ff3cb3731f86ff44d1be3b68510caf2b37e9aa] does not match the correctness!
+[16-Mar-2021 21:48:10 Europe/Kiev] The hash [b39a1fed90ef9e2c348a68c8cd0761baad35ed801] does not match the correctness!
+[16-Mar-2021 21:48:16 Europe/Kiev] The hash [b39a1fed90ef9e2c348a68c8cd0761baad35ed8] does not match the correctness!
+[19-Mar-2021 17:34:52 Europe/Kiev] The textarea is empty!
+[19-Mar-2021 17:35:18 Europe/Kiev] No hash found!
+[19-Mar-2021 17:35:39 Europe/Kiev] The hash [e4b952ef99b64a77d81b8a672767c5e9d50778591] does not match the correctness!

@@ -1,0 +1,2 @@
+checkElements();
+addHandlers();
